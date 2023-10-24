@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Nav.jsx";
 import Home from "./Home.jsx";
 import Footer from "./Footer.jsx";
+import "./App.css";
 function App() {
   return (
     <>

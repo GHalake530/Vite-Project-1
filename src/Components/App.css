@@ -1,0 +1,44 @@
+body {
+  background-image: url('https://thumbs.dreamstime.com/b/flat-lay-composition-overturned-paper-bag-groceries-black-wooden-background-space-text-flat-lay-composition-157615767.jpg');
+  background-size: cover;
+  color: #f1e9e9;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #ff8c00, #ff007f); 
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(162, 122, 122, 0.2); 
+  transition: background 0.3s ease; 
+}
+
+.navbar:hover {
+  background: linear-gradient(45deg, #ff007f, #ff8c00); 
+}
+
+ol {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ol li:before {
+  content: "\2022";
+  color: #ff8c00;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+footer {
+  background-color: #a28989;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+  
